@@ -129,4 +129,5 @@ SITE_STATIC_ROOT = os.path.join( SITE_ROOT, 'local_static')
 STATICFILES_DIRS = (
     # Don't forget to use absolute paths, not relative paths.
     ('', SITE_STATIC_ROOT),
+    (SITE_ROOT, 'static')
 )
